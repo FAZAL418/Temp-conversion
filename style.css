@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, h1, p, input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Center content vertically and horizontally */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ecf0f1; /* Light blue-gray for a clean and calm feel */
+  color: #333; /* Set default text color */
+  font-family: 'Arial', sans-serif; /* Choose a commonly available font */
+}
+
+h1 {
+  margin-bottom: 1.5rem; /* Increased bottom margin for better spacing */
+  font-size: 2.5rem;
+  color: #555; /* Slightly darker heading color */
+  text-transform: uppercase; /* Capitalize all letters */
+  font-weight: bold; /* Bold text */
+}
+
+input[type=number] {
+  cursor: pointer;
+  padding: 1.5rem; /* Increased padding for a larger button */
+  font-size: 1.3rem; /* Increased font size for better readability */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+#input-celsius,
+#input-fahrenheit,
+#input-kelvin {
+  padding: 1.5rem; /* Increased padding for better spacing */
+  font-size: 2rem;
+  color: #fff; /* White text on colored background for better contrast */
+  border: none; /* Removed borders for a cleaner look */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  margin-bottom: 1rem; /* Added bottom margin for spacing between inputs */
+  text-transform: uppercase; /* Capitalize all letters */
+  font-weight: bold; /* Bold text */
+}
+
+#input-celsius {
+  background-color: #2ecc71; /* Green for a cool temperature */
+}
+
+#input-fahrenheit {
+  background-color: #e74c3c; /* Red for a warm temperature */
+}
+
+#input-kelvin {
+  background-color: #3498db; /* Blue for a neutral temperature */
+}
+
+.form-padding {
+  padding: 2rem; /* Increased padding for better spacing */
+}
+
+/* Placeholder color for all modern browsers */
+::placeholder {
+  color: #aaa;
+}
+
+footer {
+  padding: 1.5rem 0; /* Increased padding for better spacing */
+  font-size: 0.9rem; /* Slightly increased font size */
+  text-align: center;
+  color: #777; /* Subdued footer text color */
+  background-color: #ecf0f1; /* Light blue-gray for a clean and calm feel */
+}
+
+.icons {
+  max-width: 24px; /* Slightly increased max-width for better consistency */
+  height: auto;
+}
